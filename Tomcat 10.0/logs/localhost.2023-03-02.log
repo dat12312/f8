@@ -1,0 +1,2 @@
+02-Mar-2023 12:10:31.118 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+02-Mar-2023 12:10:32.303 INFO [main] org.apache.catalina.core.ApplicationContext.log loginFilter:Initializing filter

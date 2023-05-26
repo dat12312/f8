@@ -1,0 +1,14 @@
+12-May-2023 07:54:15.404 INFO [http-nio-9999-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+12-May-2023 07:54:15.404 INFO [http-nio-9999-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+12-May-2023 07:54:15.448 INFO [http-nio-9999-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-May-2023 07:54:15.452 INFO [http-nio-9999-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-May-2023 07:54:15.533 INFO [http-nio-9999-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Assignment'
+12-May-2023 07:54:16.066 INFO [http-nio-9999-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context7780144615447332837.xml'
+12-May-2023 07:54:16.390 INFO [http-nio-9999-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Assignment'
+12-May-2023 16:48:11.343 INFO [http-nio-9999-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+12-May-2023 16:48:11.343 INFO [http-nio-9999-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+12-May-2023 16:48:11.376 INFO [http-nio-9999-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-May-2023 16:48:11.381 INFO [http-nio-9999-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-May-2023 16:48:11.505 INFO [http-nio-9999-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/Assignment'
+12-May-2023 16:48:12.053 INFO [http-nio-9999-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context3140130967839949678.xml'
+12-May-2023 16:48:12.445 INFO [http-nio-9999-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/Assignment'

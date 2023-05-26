@@ -1,0 +1,62 @@
+04-Mar-2023 00:21:59.011 INFO [http-nio-9999-exec-215] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:15:46.738 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:15:50.593 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:15:52.268 INFO [main] org.apache.catalina.core.ApplicationContext.log loginFilter:Initializing filter
+04-Mar-2023 17:35:29.972 INFO [http-nio-9999-exec-3] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:35:30.864 INFO [http-nio-9999-exec-8] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:35:35.665 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:41:28.297 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:46:05.839 INFO [http-nio-9999-exec-25] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:46:17.583 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:47:13.541 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:47:14.339 INFO [http-nio-9999-exec-25] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:47:18.763 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:47:28.657 INFO [http-nio-9999-exec-26] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:49:42.049 INFO [http-nio-9999-exec-28] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:49:48.029 INFO [http-nio-9999-exec-36] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:50:02.077 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:50:57.631 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:51:13.385 INFO [http-nio-9999-exec-36] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:51:35.529 INFO [http-nio-9999-exec-28] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:51:53.135 INFO [http-nio-9999-exec-30] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:52:04.010 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:52:08.824 INFO [http-nio-9999-exec-30] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:54:04.912 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:55:02.168 INFO [http-nio-9999-exec-37] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:56:11.844 INFO [http-nio-9999-exec-45] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:57:07.816 INFO [http-nio-9999-exec-49] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:57:29.533 INFO [http-nio-9999-exec-50] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 17:58:02.285 SEVERE [http-nio-9999-exec-52] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Home] in context with path [/Assignment] threw exception
+	java.lang.NullPointerException
+		at controller.Home.processRequest(Home.java:44)
+		at controller.Home.doGet(Home.java:65)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:683)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+04-Mar-2023 18:00:20.203 INFO [http-nio-9999-exec-58] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 18:06:09.648 INFO [http-nio-9999-exec-62] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 18:06:10.488 INFO [http-nio-9999-exec-68] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 18:06:18.475 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 18:06:20.930 INFO [http-nio-9999-exec-70] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+04-Mar-2023 18:06:28.861 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter

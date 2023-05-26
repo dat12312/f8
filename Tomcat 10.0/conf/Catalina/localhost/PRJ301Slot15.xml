@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="C:\Users\ADMIN\Desktop\PRJ301\PRJ301Slot15\PRJ301Slot15\build\web" path="/PRJ301Slot15">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="20" maxIdle="5" maxWait="10000" name="Dbcon" password="123456" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=Store" username="sa"/>
+</Context>

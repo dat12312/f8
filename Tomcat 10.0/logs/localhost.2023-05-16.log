@@ -1,0 +1,54 @@
+16-May-2023 10:17:09.475 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+16-May-2023 10:30:00.871 SEVERE [http-nio-9999-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/F8_Group6_td] threw exception [An exception occurred processing [home.jsp] at line [24]
+
+21:         <c:if test="${user!=null}">
+22:             <h1>
+23:                 Welcome, 
+24:                 <c:if test="${user.UserRole_RoleId == 1}">
+25:                     ${user.userrole.name}:
+26:                 </c:if>
+27:                 ${user.FullName}
+
+
+Stacktrace:] with root cause
+	jakarta.el.PropertyNotFoundException: Property [UserRole_RoleId] not found on type [model.user]
+		at jakarta.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:261)
+		at jakarta.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:213)
+		at jakarta.el.BeanELResolver.property(BeanELResolver.java:334)
+		at jakarta.el.BeanELResolver.getValue(BeanELResolver.java:95)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.parser.AstEqual.getValue(AstEqual.java:36)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:702)
+		at org.apache.jsp.home_jsp._jspx_meth_c_005fif_005f2(home_jsp.java:258)
+		at org.apache.jsp.home_jsp._jspx_meth_c_005fif_005f1(home_jsp.java:222)
+		at org.apache.jsp.home_jsp._jspService(home_jsp.java:144)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)

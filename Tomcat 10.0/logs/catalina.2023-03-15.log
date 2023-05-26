@@ -1,0 +1,1054 @@
+15-Mar-2023 00:50:00.827 INFO [http-nio-9999-exec-70] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_FA22_HE163935.xml]
+15-Mar-2023 00:50:00.828 WARNING [http-nio-9999-exec-70] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_FA22_HE163935] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_FA22_HE163935.xml] has been ignored
+15-Mar-2023 00:50:01.268 INFO [http-nio-9999-exec-70] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 00:50:01.276 INFO [http-nio-9999-exec-70] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_FA22_HE163935.xml] has finished in [449] ms
+15-Mar-2023 00:50:01.279 INFO [http-nio-9999-exec-74] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Q3_FA22_HE163935]] after start() had already been called. The second call will be ignored.
+15-Mar-2023 00:52:08.619 INFO [http-nio-9999-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 00:52:08.622 WARNING [http-nio-9999-exec-72] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 00:52:08.623 SEVERE [http-nio-9999-exec-72] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@66f89d7]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [25c25ab0-2f89-4bf3-9279-39ca75a87d6e-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 00:52:08.623 SEVERE [http-nio-9999-exec-72] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@66f89d7]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3aecbb19-de5c-459e-924b-064c63282125-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 00:52:08.623 SEVERE [http-nio-9999-exec-72] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@66f89d7]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [0467aaed-ed97-4fb0-bde4-c14672f36cd1-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 00:52:08.623 SEVERE [http-nio-9999-exec-72] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@66f89d7]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [42e21345-a8fa-40a3-9b50-bf1ee4432231-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 00:52:09.001 INFO [http-nio-9999-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 00:52:09.007 INFO [http-nio-9999-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 00:52:37.910 INFO [http-nio-9999-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 00:52:37.912 WARNING [http-nio-9999-exec-78] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 00:52:38.562 INFO [http-nio-9999-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 00:52:38.569 INFO [http-nio-9999-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 00:53:10.172 INFO [http-nio-9999-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 00:53:10.173 WARNING [http-nio-9999-exec-82] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 00:53:10.536 INFO [http-nio-9999-exec-82] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 00:53:10.542 INFO [http-nio-9999-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 00:56:48.566 INFO [http-nio-9999-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 00:56:48.567 WARNING [http-nio-9999-exec-90] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 00:56:48.945 INFO [http-nio-9999-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 00:56:48.952 INFO [http-nio-9999-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 00:58:20.845 INFO [http-nio-9999-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 00:58:20.847 WARNING [http-nio-9999-exec-106] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 00:58:20.847 SEVERE [http-nio-9999-exec-106] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1e4d6991]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c2eef843-8cf3-4377-b400-d520cb13690a-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 00:58:21.239 INFO [http-nio-9999-exec-106] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 00:58:21.245 INFO [http-nio-9999-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:01:27.874 INFO [http-nio-9999-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:01:27.875 WARNING [http-nio-9999-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:01:27.876 SEVERE [http-nio-9999-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1376bea0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [d00decde-e887-45a6-88e9-d2a6fec792c2-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 01:01:27.876 SEVERE [http-nio-9999-exec-114] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1376bea0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [b9638a7d-eadb-4bb5-b6b7-5e257b57fc8b-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 01:01:28.238 INFO [http-nio-9999-exec-114] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:01:28.244 INFO [http-nio-9999-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:01:28.564 INFO [http-nio-9999-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:01:28.914 INFO [http-nio-9999-exec-110] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:01:28.920 INFO [http-nio-9999-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:04:53.130 INFO [http-nio-9999-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:04:53.131 WARNING [http-nio-9999-exec-121] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:04:53.475 INFO [http-nio-9999-exec-121] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:04:53.480 INFO [http-nio-9999-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:04:57.906 INFO [http-nio-9999-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:04:58.238 INFO [http-nio-9999-exec-110] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:04:58.244 INFO [http-nio-9999-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:05:41.608 INFO [http-nio-9999-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:05:41.609 WARNING [http-nio-9999-exec-130] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:05:42.130 INFO [http-nio-9999-exec-130] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:05:42.136 INFO [http-nio-9999-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:05:56.133 INFO [http-nio-9999-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:05:56.441 INFO [http-nio-9999-exec-132] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:05:56.447 INFO [http-nio-9999-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:07:07.020 INFO [http-nio-9999-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:07:07.021 WARNING [http-nio-9999-exec-140] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:07:07.342 INFO [http-nio-9999-exec-140] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:07:07.348 INFO [http-nio-9999-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:07:17.529 INFO [http-nio-9999-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:07:17.864 INFO [http-nio-9999-exec-143] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:07:17.869 INFO [http-nio-9999-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:07:20.063 INFO [http-nio-9999-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:07:20.395 INFO [http-nio-9999-exec-140] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:07:20.401 INFO [http-nio-9999-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:10:36.928 INFO [http-nio-9999-exec-152] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:10:36.929 WARNING [http-nio-9999-exec-152] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:10:37.247 INFO [http-nio-9999-exec-152] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:10:37.254 INFO [http-nio-9999-exec-152] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:11:44.202 INFO [http-nio-9999-exec-160] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:11:44.523 INFO [http-nio-9999-exec-154] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:11:44.931 INFO [http-nio-9999-exec-154] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:11:44.937 INFO [http-nio-9999-exec-154] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:11:45.364 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Q3_FA22_HE163935]
+15-Mar-2023 01:11:45.364 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:11:45.718 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:11:45.723 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:14:56.511 INFO [http-nio-9999-exec-166] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:14:56.848 INFO [http-nio-9999-exec-166] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:14:56.854 INFO [http-nio-9999-exec-166] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:15:45.448 INFO [http-nio-9999-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:15:45.775 INFO [http-nio-9999-exec-158] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:15:45.781 INFO [http-nio-9999-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:32:58.044 INFO [http-nio-9999-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:32:58.046 WARNING [http-nio-9999-exec-168] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:32:58.402 INFO [http-nio-9999-exec-168] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:32:58.410 INFO [http-nio-9999-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:32:58.725 INFO [http-nio-9999-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:32:59.083 INFO [http-nio-9999-exec-170] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:32:59.089 INFO [http-nio-9999-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:34:43.707 INFO [http-nio-9999-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:34:44.043 INFO [http-nio-9999-exec-178] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:34:44.051 INFO [http-nio-9999-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:36:35.988 INFO [http-nio-9999-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:36:36.334 INFO [http-nio-9999-exec-174] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:36:36.340 INFO [http-nio-9999-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:36:36.662 INFO [http-nio-9999-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:36:37.005 INFO [http-nio-9999-exec-177] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:36:37.010 INFO [http-nio-9999-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:37:24.087 INFO [http-nio-9999-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:37:24.492 INFO [http-nio-9999-exec-174] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:37:24.497 INFO [http-nio-9999-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:39:07.014 INFO [http-nio-9999-exec-175] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:39:07.344 INFO [http-nio-9999-exec-175] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:39:07.350 INFO [http-nio-9999-exec-175] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:55:17.259 INFO [http-nio-9999-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:55:17.261 WARNING [http-nio-9999-exec-195] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 01:55:17.262 SEVERE [http-nio-9999-exec-195] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1f2f87d3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c3101725-ea19-46df-9990-5ff6db4705c4-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 01:55:17.262 SEVERE [http-nio-9999-exec-195] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1f2f87d3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a59f6b3d-7fdf-46ca-8888-f970c3869588-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 01:55:17.262 SEVERE [http-nio-9999-exec-195] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1f2f87d3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [5809fb98-fc56-4d7a-a478-842ec02370c6-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 01:55:17.262 SEVERE [http-nio-9999-exec-195] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1f2f87d3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4477920d-0873-469c-9ad5-061427fd3a0f-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 01:55:17.596 INFO [http-nio-9999-exec-195] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:55:17.602 INFO [http-nio-9999-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:55:17.930 INFO [http-nio-9999-exec-193] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:55:18.286 INFO [http-nio-9999-exec-193] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:55:18.292 INFO [http-nio-9999-exec-193] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:55:31.630 INFO [http-nio-9999-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:55:31.993 INFO [http-nio-9999-exec-187] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:55:31.998 INFO [http-nio-9999-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:55:32.323 INFO [http-nio-9999-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:55:32.694 INFO [http-nio-9999-exec-191] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:55:32.700 INFO [http-nio-9999-exec-191] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:56:38.602 INFO [http-nio-9999-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:56:38.932 INFO [http-nio-9999-exec-197] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:56:38.938 INFO [http-nio-9999-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:57:56.928 INFO [http-nio-9999-exec-200] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:57:57.272 INFO [http-nio-9999-exec-200] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:57:57.277 INFO [http-nio-9999-exec-200] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:59:07.677 INFO [http-nio-9999-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 01:59:08.095 INFO [http-nio-9999-exec-187] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 01:59:08.101 INFO [http-nio-9999-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 01:59:59.834 INFO [http-nio-9999-exec-200] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:00:00.170 INFO [http-nio-9999-exec-200] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:00:00.176 INFO [http-nio-9999-exec-200] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:02:43.236 INFO [http-nio-9999-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:02:43.585 INFO [http-nio-9999-exec-197] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:02:43.591 INFO [http-nio-9999-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:04:04.902 INFO [http-nio-9999-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:04:05.244 INFO [http-nio-9999-exec-209] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:04:05.250 INFO [http-nio-9999-exec-209] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:04:11.361 INFO [http-nio-9999-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:04:11.687 INFO [http-nio-9999-exec-211] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:04:11.692 INFO [http-nio-9999-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:04:24.461 INFO [http-nio-9999-exec-207] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:04:24.761 INFO [http-nio-9999-exec-207] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:04:24.766 INFO [http-nio-9999-exec-207] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:15:21.076 INFO [http-nio-9999-exec-222] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:15:21.078 WARNING [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ba516fcd-feb8-4c06-9f2f-4e71f55afe14-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ad47c316-684a-4a2f-83a9-cc70cae3c6b4-4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f46c75fa-2b11-409f-bcf9-1c12761743d0-5]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c010a488-9590-4fe7-9c3c-73fbb08a3907-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [de6be44a-6776-4adf-9c85-7e9ec1af6d52-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [15450f1f-8cac-42a3-9ab4-1be2d20e8359-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.079 SEVERE [http-nio-9999-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3efd270b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3fcc1f7c-b6cc-4db7-95f8-ceb396ef1749-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:15:21.673 INFO [http-nio-9999-exec-222] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:15:21.679 INFO [http-nio-9999-exec-222] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:19:26.769 INFO [http-nio-9999-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:19:26.771 WARNING [http-nio-9999-exec-228] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 02:19:26.772 SEVERE [http-nio-9999-exec-228] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@447cdbb7]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [69253200-d184-4225-9629-78635dccbe33-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:19:27.097 INFO [http-nio-9999-exec-228] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:19:27.103 INFO [http-nio-9999-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:20:44.156 INFO [http-nio-9999-exec-226] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:20:44.515 INFO [http-nio-9999-exec-226] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:20:44.521 INFO [http-nio-9999-exec-226] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:27:05.618 INFO [http-nio-9999-exec-243] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:27:05.620 WARNING [http-nio-9999-exec-243] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 02:27:05.621 SEVERE [http-nio-9999-exec-243] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@770f0f3c]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [863b53df-1b3f-4f16-8e98-1b7c4f1d30dc-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:27:05.621 SEVERE [http-nio-9999-exec-243] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@770f0f3c]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2965c355-c011-43e7-9d0a-86b45eaa1c24-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:27:05.937 INFO [http-nio-9999-exec-243] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:27:05.942 INFO [http-nio-9999-exec-243] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:27:28.179 INFO [http-nio-9999-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:27:28.529 INFO [http-nio-9999-exec-244] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:27:28.535 INFO [http-nio-9999-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:27:28.854 INFO [http-nio-9999-exec-242] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:27:29.209 INFO [http-nio-9999-exec-242] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:27:29.216 INFO [http-nio-9999-exec-242] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:27:40.901 INFO [http-nio-9999-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:27:41.221 INFO [http-nio-9999-exec-239] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:27:41.226 INFO [http-nio-9999-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:27:41.553 INFO [http-nio-9999-exec-241] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:27:41.974 INFO [http-nio-9999-exec-241] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:27:41.979 INFO [http-nio-9999-exec-241] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:30:27.026 INFO [http-nio-9999-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:30:27.371 INFO [http-nio-9999-exec-254] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:30:27.376 INFO [http-nio-9999-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:30:27.692 INFO [http-nio-9999-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:30:28.061 INFO [http-nio-9999-exec-239] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:30:28.066 INFO [http-nio-9999-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:30:36.980 INFO [http-nio-9999-exec-246] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:30:37.279 INFO [http-nio-9999-exec-246] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:30:37.284 INFO [http-nio-9999-exec-246] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:31:31.216 INFO [http-nio-9999-exec-252] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:31:31.542 INFO [http-nio-9999-exec-252] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:31:31.548 INFO [http-nio-9999-exec-252] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 02:39:13.764 WARNING [http-nio-9999-exec-262] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Assignment] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 02:39:14.276 INFO [http-nio-9999-exec-262] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Assignment]
+15-Mar-2023 02:39:14.814 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Assignment]
+15-Mar-2023 02:39:14.819 INFO [http-nio-9999-exec-258] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml]
+15-Mar-2023 02:39:14.821 WARNING [http-nio-9999-exec-258] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has been ignored
+15-Mar-2023 02:39:15.186 INFO [http-nio-9999-exec-258] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:39:15.192 INFO [http-nio-9999-exec-258] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has finished in [373] ms
+15-Mar-2023 02:39:15.195 INFO [http-nio-9999-exec-266] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Assignment]] after start() had already been called. The second call will be ignored.
+15-Mar-2023 02:45:35.842 INFO [http-nio-9999-exec-270] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 02:45:35.843 WARNING [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 02:45:35.843 SEVERE [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4a2f7ff2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [68e52121-fef4-4af3-aba2-a1cc285e245f-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:45:35.843 SEVERE [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4a2f7ff2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [6b70ded2-a50a-4043-9a7f-799a6760e1c9-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:45:35.843 SEVERE [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4a2f7ff2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [af94fb32-62da-41fd-b22d-5a20f291ba46-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:45:35.843 SEVERE [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4a2f7ff2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [41f988fb-3ec9-46cb-b54b-db7210392cb9-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:45:35.843 SEVERE [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4a2f7ff2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f7dc58d9-c8f6-4b02-8c2f-7e124ff6d89c-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:45:35.843 SEVERE [http-nio-9999-exec-270] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4a2f7ff2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [659281c0-e4b0-42ee-8fb7-44df508a5a97-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 02:45:36.172 INFO [http-nio-9999-exec-270] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 02:45:36.178 INFO [http-nio-9999-exec-270] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:03:41.151 INFO [http-nio-9999-exec-286] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:03:41.154 WARNING [http-nio-9999-exec-286] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 03:03:41.494 INFO [http-nio-9999-exec-286] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:03:41.499 INFO [http-nio-9999-exec-286] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:03:41.823 INFO [http-nio-9999-exec-280] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:03:42.159 INFO [http-nio-9999-exec-280] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:03:42.165 INFO [http-nio-9999-exec-280] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:04:56.070 INFO [http-nio-9999-exec-288] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:04:56.398 INFO [http-nio-9999-exec-288] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:04:56.403 INFO [http-nio-9999-exec-288] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:07:36.868 INFO [http-nio-9999-exec-279] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:07:37.197 INFO [http-nio-9999-exec-279] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:07:37.203 INFO [http-nio-9999-exec-279] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:29:51.014 INFO [http-nio-9999-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:29:51.016 WARNING [http-nio-9999-exec-295] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Q3_FA22_HE163935] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 03:29:51.016 SEVERE [http-nio-9999-exec-295] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@405d68c2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4e2f9804-db72-4058-8054-429ad52eba52-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 03:29:51.016 SEVERE [http-nio-9999-exec-295] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@405d68c2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [43e5f446-1260-49fd-9e55-619fcf0eea9c-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 03:29:51.017 SEVERE [http-nio-9999-exec-295] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Q3_FA22_HE163935] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@405d68c2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [d3312d56-3fb0-404e-86c1-08335609fbd1-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 03:29:51.344 INFO [http-nio-9999-exec-295] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:29:51.350 INFO [http-nio-9999-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:32:20.207 INFO [http-nio-9999-exec-307] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:32:20.534 INFO [http-nio-9999-exec-307] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:32:20.540 INFO [http-nio-9999-exec-307] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:33:17.116 INFO [http-nio-9999-exec-305] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:33:17.457 INFO [http-nio-9999-exec-305] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:33:17.464 INFO [http-nio-9999-exec-305] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:33:56.280 INFO [http-nio-9999-exec-300] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:33:56.633 INFO [http-nio-9999-exec-300] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:33:56.639 INFO [http-nio-9999-exec-300] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:40:05.469 INFO [http-nio-9999-exec-313] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] has started
+15-Mar-2023 03:40:05.805 INFO [http-nio-9999-exec-313] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 03:40:05.810 INFO [http-nio-9999-exec-313] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Q3_FA22_HE163935] is completed
+15-Mar-2023 03:49:51.757 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer No shutdown port configured. Shut down server through OS signal. Server not shut down.
+15-Mar-2023 23:25:53.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+15-Mar-2023 23:25:53.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+15-Mar-2023 23:25:53.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_321\jre
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_321-b07
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.0
+15-Mar-2023 23:25:53.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.0
+15-Mar-2023 23:25:53.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\logging.properties
+15-Mar-2023 23:25:53.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Mar-2023 23:25:53.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=proxy
+15-Mar-2023 23:25:53.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost*|127.0.0.1*|GENTLE*|localhost|127.0.0.1|GENTLE
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.0
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.0
+15-Mar-2023 23:25:53.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.0\temp
+15-Mar-2023 23:25:53.331 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;E:\Visual Code\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_321\bin;;.]
+15-Mar-2023 23:25:53.714 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+15-Mar-2023 23:25:53.728 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [588] milliseconds
+15-Mar-2023 23:25:53.755 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Mar-2023 23:25:53.755 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+15-Mar-2023 23:25:53.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml]
+15-Mar-2023 23:25:53.775 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has been ignored
+15-Mar-2023 23:25:54.677 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:54.817 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [107] milliseconds.
+15-Mar-2023 23:25:54.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has finished in [1,068] ms
+15-Mar-2023 23:25:54.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\AssignmentPRJ23.xml]
+15-Mar-2023 23:25:54.831 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/AssignmentPRJ23] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\AssignmentPRJ23.xml] has been ignored
+15-Mar-2023 23:25:55.332 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:55.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\AssignmentPRJ23.xml] has finished in [514] ms
+15-Mar-2023 23:25:55.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn1.xml]
+15-Mar-2023 23:25:55.345 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/btvn1] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn1.xml] has been ignored
+15-Mar-2023 23:25:55.349 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@688a2c09]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\btvn1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:55.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn1.xml] has finished in [14] ms
+15-Mar-2023 23:25:55.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn2.xml]
+15-Mar-2023 23:25:55.359 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/btvn2] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn2.xml] has been ignored
+15-Mar-2023 23:25:55.362 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@303c55fa]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\btvn2\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:55.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\btvn2.xml] has finished in [246] ms
+15-Mar-2023 23:25:55.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Buoi5_PRJ301.xml]
+15-Mar-2023 23:25:55.605 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Buoi5_PRJ301] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Buoi5_PRJ301.xml] has been ignored
+15-Mar-2023 23:25:55.609 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Buoi5_PRJ301.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2ee83775]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\Buoi5_PRJ301\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:55.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Buoi5_PRJ301.xml] has finished in [353] ms
+15-Mar-2023 23:25:55.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\ChuaBTVN1.xml]
+15-Mar-2023 23:25:55.958 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ChuaBTVN1] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\ChuaBTVN1.xml] has been ignored
+15-Mar-2023 23:25:55.963 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\ChuaBTVN1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3f81621c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\ChuaBTVN1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:56.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\ChuaBTVN1.xml] has finished in [338] ms
+15-Mar-2023 23:25:56.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\CRUD.xml]
+15-Mar-2023 23:25:56.297 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUD] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\CRUD.xml] has been ignored
+15-Mar-2023 23:25:56.301 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\CRUD.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@52a33c3f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\CRUD\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:56.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\CRUD.xml] has finished in [384] ms
+15-Mar-2023 23:25:56.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloScope.xml]
+15-Mar-2023 23:25:56.681 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloScope] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloScope.xml] has been ignored
+15-Mar-2023 23:25:57.233 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:57.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloScope.xml] has finished in [572] ms
+15-Mar-2023 23:25:57.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServlet.xml]
+15-Mar-2023 23:25:57.255 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloServlet] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServlet.xml] has been ignored
+15-Mar-2023 23:25:57.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServlet.xml] has finished in [42] ms
+15-Mar-2023 23:25:57.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServletnew.xml]
+15-Mar-2023 23:25:57.296 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloServletnew] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServletnew.xml] has been ignored
+15-Mar-2023 23:25:57.300 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServletnew.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7f42b194]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301\Code (Hoc Them)\HelloServletnew\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:57.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloServletnew.xml] has finished in [47] ms
+15-Mar-2023 23:25:57.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloWorld.xml]
+15-Mar-2023 23:25:57.343 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HelloWorld] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloWorld.xml] has been ignored
+15-Mar-2023 23:25:57.345 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloWorld.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@13ef7fa1]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301\Code (Hoc Them)\HelloWorld\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:57.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\HelloWorld.xml] has finished in [337] ms
+15-Mar-2023 23:25:57.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\JSPDEMO.xml]
+15-Mar-2023 23:25:57.681 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JSPDEMO] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\JSPDEMO.xml] has been ignored
+15-Mar-2023 23:25:57.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\JSPDEMO.xml] has finished in [20] ms
+15-Mar-2023 23:25:57.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\JSPDEMO2.xml]
+15-Mar-2023 23:25:57.701 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JSPDEMO2] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\JSPDEMO2.xml] has been ignored
+15-Mar-2023 23:25:57.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\JSPDEMO2.xml] has finished in [25] ms
+15-Mar-2023 23:25:57.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Login-buoi4.xml]
+15-Mar-2023 23:25:57.726 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Login-buoi4] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Login-buoi4.xml] has been ignored
+15-Mar-2023 23:25:57.730 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Login-buoi4.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7b3cbe6e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\Login-buoi4\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:57.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Login-buoi4.xml] has finished in [262] ms
+15-Mar-2023 23:25:57.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Online shop.xml]
+15-Mar-2023 23:25:57.988 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Online shop] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Online shop.xml] has been ignored
+15-Mar-2023 23:25:57.991 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Online shop.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7b5ac347]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\Buoi1_PRJ301\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:25:58.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Online shop.xml] has finished in [277] ms
+15-Mar-2023 23:25:58.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Party.xml]
+15-Mar-2023 23:25:58.266 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Party] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Party.xml] has been ignored
+15-Mar-2023 23:25:58.720 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:58.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Party.xml] has finished in [467] ms
+15-Mar-2023 23:25:58.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot15.xml]
+15-Mar-2023 23:25:58.733 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301Slot15] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot15.xml] has been ignored
+15-Mar-2023 23:25:58.789 WARNING [main] java.util.ArrayList.forEach Name = Dbcon Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+15-Mar-2023 23:25:58.789 WARNING [main] java.util.ArrayList.forEach Name = Dbcon Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+15-Mar-2023 23:25:58.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot15.xml] has finished in [81] ms
+15-Mar-2023 23:25:58.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot16.xml]
+15-Mar-2023 23:25:58.814 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301Slot16] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot16.xml] has been ignored
+15-Mar-2023 23:25:59.194 WARNING [main] java.util.ArrayList.forEach Name = Dbcon Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+15-Mar-2023 23:25:59.194 WARNING [main] java.util.ArrayList.forEach Name = Dbcon Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+15-Mar-2023 23:25:59.215 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:59.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot16.xml] has finished in [413] ms
+15-Mar-2023 23:25:59.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301SLot3.xml]
+15-Mar-2023 23:25:59.227 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301SLot3] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301SLot3.xml] has been ignored
+15-Mar-2023 23:25:59.334 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:59.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301SLot3.xml] has finished in [109] ms
+15-Mar-2023 23:25:59.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot5_3.xml]
+15-Mar-2023 23:25:59.336 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301Slot5_3] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot5_3.xml] has been ignored
+15-Mar-2023 23:25:59.442 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:25:59.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301Slot5_3.xml] has finished in [109] ms
+15-Mar-2023 23:25:59.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301_SE1726_Demo1.xml]
+15-Mar-2023 23:25:59.444 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_SE1726_Demo1] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301_SE1726_Demo1.xml] has been ignored
+15-Mar-2023 23:25:59.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\PRJ301_SE1726_Demo1.xml] has finished in [26] ms
+15-Mar-2023 23:25:59.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_FA22.xml]
+15-Mar-2023 23:25:59.471 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_FA22] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_FA22.xml] has been ignored
+15-Mar-2023 23:25:59.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_FA22.xml] has finished in [21] ms
+15-Mar-2023 23:25:59.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_FA22_HE163935.xml]
+15-Mar-2023 23:25:59.491 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_FA22_HE163935] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_FA22_HE163935.xml] has been ignored
+15-Mar-2023 23:25:59.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_FA22_HE163935.xml] has finished in [29] ms
+15-Mar-2023 23:25:59.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_SP22_Block5.xml]
+15-Mar-2023 23:25:59.521 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_SP22_Block5] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_SP22_Block5.xml] has been ignored
+15-Mar-2023 23:25:59.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q1_SP22_Block5.xml] has finished in [25] ms
+15-Mar-2023 23:25:59.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q2_FA22_HE163935.xml]
+15-Mar-2023 23:25:59.547 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q2_FA22_HE163935] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q2_FA22_HE163935.xml] has been ignored
+15-Mar-2023 23:25:59.991 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:00.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q2_FA22_HE163935.xml] has finished in [453] ms
+15-Mar-2023 23:26:00.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q2_SP22_Block5.xml]
+15-Mar-2023 23:26:00.000 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q2_SP22_Block5] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q2_SP22_Block5.xml] has been ignored
+15-Mar-2023 23:26:00.409 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:00.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q2_SP22_Block5.xml] has finished in [419] ms
+15-Mar-2023 23:26:00.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_FA22_HE163935.xml]
+15-Mar-2023 23:26:00.421 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_FA22_HE163935] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_FA22_HE163935.xml] has been ignored
+15-Mar-2023 23:26:00.829 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:00.838 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_FA22_HE163935.xml] has finished in [418] ms
+15-Mar-2023 23:26:00.838 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_SP22_Block5.xml]
+15-Mar-2023 23:26:00.839 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_SP22_Block5] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_SP22_Block5.xml] has been ignored
+15-Mar-2023 23:26:01.189 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:01.197 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Q3_SP22_Block5.xml] has finished in [359] ms
+15-Mar-2023 23:26:01.197 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\StudentManage.xml]
+15-Mar-2023 23:26:01.198 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/StudentManage] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\StudentManage.xml] has been ignored
+15-Mar-2023 23:26:01.200 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\StudentManage.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1aaf110c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301(BaoThien)\Code\StudentManage\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:26:01.232 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\StudentManage.xml] has finished in [34] ms
+15-Mar-2023 23:26:01.232 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication1.xml]
+15-Mar-2023 23:26:01.232 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+15-Mar-2023 23:26:01.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication1.xml] has finished in [22] ms
+15-Mar-2023 23:26:01.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication2.xml]
+15-Mar-2023 23:26:01.255 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication2] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication2.xml] has been ignored
+15-Mar-2023 23:26:01.375 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:01.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication2.xml] has finished in [122] ms
+15-Mar-2023 23:26:01.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication3.xml]
+15-Mar-2023 23:26:01.378 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication3] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication3.xml] has been ignored
+15-Mar-2023 23:26:01.773 WARNING [main] java.util.ArrayList.forEach Name = Dbcon Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+15-Mar-2023 23:26:01.773 WARNING [main] java.util.ArrayList.forEach Name = Dbcon Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+15-Mar-2023 23:26:01.787 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:01.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WebApplication3.xml] has finished in [418] ms
+15-Mar-2023 23:26:01.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Workshop1.xml]
+15-Mar-2023 23:26:01.795 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop1] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Workshop1.xml] has been ignored
+15-Mar-2023 23:26:01.797 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Workshop1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5ea4d07f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\Nguyen Tien Dat - HE163935\Workshop1\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:26:01.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Workshop1.xml] has finished in [6] ms
+15-Mar-2023 23:26:01.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WS1Chua.xml]
+15-Mar-2023 23:26:01.802 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WS1Chua] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WS1Chua.xml] has been ignored
+15-Mar-2023 23:26:01.804 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WS1Chua.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@db52bc4]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ADMIN\Desktop\PRJ301\Code lop\WS1Chua\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+15-Mar-2023 23:26:02.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\WS1Chua.xml] has finished in [292] ms
+15-Mar-2023 23:26:02.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\docs]
+15-Mar-2023 23:26:02.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\docs] has finished in [26] ms
+15-Mar-2023 23:26:02.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\manager]
+15-Mar-2023 23:26:02.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\manager] has finished in [31] ms
+15-Mar-2023 23:26:02.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\ROOT]
+15-Mar-2023 23:26:02.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.0\webapps\ROOT] has finished in [15] ms
+15-Mar-2023 23:26:02.169 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+15-Mar-2023 23:26:02.240 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8511] milliseconds
+15-Mar-2023 23:26:05.720 INFO [http-nio-9999-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Assignment]
+15-Mar-2023 23:26:05.739 INFO [http-nio-9999-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml]
+15-Mar-2023 23:26:05.740 WARNING [http-nio-9999-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has been ignored
+15-Mar-2023 23:26:06.184 INFO [http-nio-9999-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:26:06.192 INFO [http-nio-9999-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has finished in [453] ms
+15-Mar-2023 23:26:06.195 INFO [http-nio-9999-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Assignment]] after start() had already been called. The second call will be ignored.
+15-Mar-2023 23:40:35.506 WARNING [http-nio-9999-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Assignment] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Mar-2023 23:40:35.507 SEVERE [http-nio-9999-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Assignment] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7566c099]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [208e742e-a35f-4bfc-9cdb-f0ff5f074999-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 23:40:35.507 SEVERE [http-nio-9999-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Assignment] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7566c099]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [344c229a-0a11-467a-93f4-0a5c61b9c83d-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 23:40:35.507 SEVERE [http-nio-9999-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Assignment] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7566c099]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a58ad580-6d16-4a15-a590-cff8cae663e8-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+15-Mar-2023 23:40:36.018 INFO [http-nio-9999-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Assignment]
+15-Mar-2023 23:40:36.027 INFO [http-nio-9999-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml]
+15-Mar-2023 23:40:36.028 WARNING [http-nio-9999-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has been ignored
+15-Mar-2023 23:40:36.436 INFO [http-nio-9999-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Mar-2023 23:40:36.443 INFO [http-nio-9999-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Program Files\Apache Software Foundation\Tomcat 10.0\conf\Catalina\localhost\Assignment.xml] has finished in [416] ms
+15-Mar-2023 23:40:36.446 INFO [http-nio-9999-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Assignment]] after start() had already been called. The second call will be ignored.
+15-Mar-2023 23:52:30.663 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer No shutdown port configured. Shut down server through OS signal. Server not shut down.

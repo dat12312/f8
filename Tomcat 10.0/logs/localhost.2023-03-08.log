@@ -1,0 +1,35 @@
+08-Mar-2023 09:26:41.976 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+08-Mar-2023 09:26:45.665 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+08-Mar-2023 09:26:47.271 INFO [main] org.apache.catalina.core.ApplicationContext.log loginFilter:Initializing filter
+08-Mar-2023 09:26:50.585 INFO [http-nio-9999-exec-4] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+08-Mar-2023 10:24:02.222 SEVERE [http-nio-9999-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Home] in context with path [/Assignment] threw exception
+	java.lang.NullPointerException
+		at controller.Home.processRequest(Home.java:44)
+		at controller.Home.doGet(Home.java:67)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:683)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+08-Mar-2023 10:29:46.878 INFO [http-nio-9999-exec-15] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+08-Mar-2023 10:33:35.490 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+08-Mar-2023 10:34:18.247 INFO [http-nio-9999-exec-11] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter

@@ -1,0 +1,4 @@
+12-May-2023 07:54:11.331 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+12-May-2023 07:54:16.385 INFO [http-nio-9999-exec-2] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+12-May-2023 16:48:06.559 INFO [main] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter
+12-May-2023 16:48:12.440 INFO [http-nio-9999-exec-5] org.apache.catalina.core.ApplicationContext.log AdminFilter:Initializing filter

@@ -1,0 +1,174 @@
+23-May-2023 09:55:58.246 INFO [http-nio-9999-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+23-May-2023 09:55:58.246 INFO [http-nio-9999-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+23-May-2023 09:55:58.294 INFO [http-nio-9999-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 09:55:58.299 INFO [http-nio-9999-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 09:55:58.445 INFO [http-nio-9999-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 20:39:41.107 INFO [http-nio-9999-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 20:39:41.113 INFO [http-nio-9999-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:23:11.570 INFO [http-nio-9999-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:23:52.587 INFO [http-nio-9999-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:23:52.600 INFO [http-nio-9999-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/F8_Group6_td'
+23-May-2023 21:23:52.613 INFO [http-nio-9999-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:23:54.284 INFO [http-nio-9999-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:23:54.290 INFO [http-nio-9999-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:24:32.065 INFO [http-nio-9999-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:24:32.077 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/F8_Group6_td'
+23-May-2023 21:24:32.086 INFO [http-nio-9999-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:24:33.328 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:24:33.335 INFO [http-nio-9999-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:24:54.545 INFO [http-nio-9999-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:24:54.557 INFO [http-nio-9999-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/F8_Group6_td'
+23-May-2023 21:24:54.565 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:24:55.700 INFO [http-nio-9999-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:24:55.725 INFO [http-nio-9999-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:26:19.363 INFO [http-nio-9999-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:19.370 INFO [http-nio-9999-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/F8_Group6_td'
+23-May-2023 21:26:19.376 INFO [http-nio-9999-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:26:20.011 SEVERE [http-nio-9999-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: Error starting [/F8_Group6_td]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/F8_Group6_td]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1415)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:380)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:683)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:661)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [FBConstants]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3258)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5085)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 31 more
+23-May-2023 21:26:20.324 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:20.327 INFO [http-nio-9999-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:20.374 INFO [http-nio-9999-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/F8_Group6_td'
+23-May-2023 21:26:20.898 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context3061984074970202412.xml'
+23-May-2023 21:26:21.557 INFO [http-nio-9999-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:26:21.678 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:21.700 INFO [http-nio-9999-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:27.677 INFO [http-nio-9999-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:27.683 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/F8_Group6_td'
+23-May-2023 21:26:27.690 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:26:28.385 SEVERE [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: Error starting [/F8_Group6_td]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/F8_Group6_td]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1415)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:380)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:683)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:661)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [RestFB]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3258)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5085)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 31 more
+23-May-2023 21:26:28.695 INFO [http-nio-9999-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:28.700 INFO [http-nio-9999-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:28.741 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/F8_Group6_td'
+23-May-2023 21:26:29.262 INFO [http-nio-9999-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context5890171720268744172.xml'
+23-May-2023 21:26:29.944 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 21:26:30.266 INFO [http-nio-9999-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:43.684 INFO [http-nio-9999-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:43.692 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:26:44.696 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:44.702 INFO [http-nio-9999-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:26:56.546 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:56.553 INFO [http-nio-9999-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:26:57.532 INFO [http-nio-9999-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:26:57.536 INFO [http-nio-9999-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:28:38.022 INFO [http-nio-9999-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:28:38.027 INFO [http-nio-9999-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:34:03.744 INFO [http-nio-9999-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:34:03.969 INFO [http-nio-9999-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:34:03.974 INFO [http-nio-9999-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:34:05.007 INFO [http-nio-9999-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:34:05.020 INFO [http-nio-9999-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:35:56.578 INFO [http-nio-9999-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:35:56.585 INFO [http-nio-9999-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 21:35:57.652 INFO [http-nio-9999-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 21:35:57.662 INFO [http-nio-9999-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/F8_Group6_td'
+23-May-2023 23:40:50.660 INFO [http-nio-9999-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:40:50.689 INFO [http-nio-9999-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/F8_Group6_td'
+23-May-2023 23:40:51.222 INFO [http-nio-9999-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context7789614019199717357.xml'
+23-May-2023 23:40:52.048 INFO [http-nio-9999-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 23:42:00.656 INFO [http-nio-9999-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:42:00.679 INFO [http-nio-9999-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:42:00.684 INFO [http-nio-9999-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context5921488027929632431.xml'
+23-May-2023 23:42:01.145 INFO [http-nio-9999-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/DD'
+23-May-2023 23:43:59.483 INFO [http-nio-9999-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:43:59.488 INFO [http-nio-9999-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/DD'
+23-May-2023 23:45:56.819 INFO [http-nio-9999-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:47:50.848 INFO [http-nio-9999-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:47:50.850 INFO [http-nio-9999-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:47:50.900 INFO [http-nio-9999-exec-79] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/F8_Group6_td'
+23-May-2023 23:47:51.419 INFO [http-nio-9999-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/ADMIN/AppData/Local/Temp/context1770637352202105036.xml'
+23-May-2023 23:47:52.129 INFO [http-nio-9999-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/F8_Group6_td'
+23-May-2023 23:49:20.466 INFO [http-nio-9999-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:50:10.810 INFO [http-nio-9999-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:50:44.943 INFO [http-nio-9999-exec-90] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:50:44.945 INFO [http-nio-9999-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+23-May-2023 23:50:45.010 INFO [http-nio-9999-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/DD'
